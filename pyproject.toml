@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "plant-classification"
+version = "0.1.0"
+description = "A plant classifier using NN"
+authors = ["Norberto Goizueta <ng213@ic.ac.uk>"]
+license = "BSD-3"
+readme = "README.md"
+packages = [{include = "plant_classification"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "^1.23.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
