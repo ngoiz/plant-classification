@@ -35,4 +35,4 @@ jobs:
       - name: Install project
         run: poetry install --no-interaction
       - name: Run Tests
-        run: poetry run -m unittest
+        run: poetry run python -m unittest
